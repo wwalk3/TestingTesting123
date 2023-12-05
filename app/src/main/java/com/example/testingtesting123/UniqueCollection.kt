@@ -14,6 +14,10 @@ class UniqueCollection {
         !collection.remove(item)
     }
 
+    fun clear () {
+
+    }
+
     fun size() = collection.size
 
 

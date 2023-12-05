@@ -41,4 +41,13 @@ class UniqueCollectionTest {
 
         assert(originalSize == 2 && newSize == 0) {"Items not cleared"}
     }
+
+    @Test
+    fun returnCorrectSize() {
+        collection.addItem(Item("Passionfruit"))
+        collection.addItem(Item("Strawberry"))
+
+        assert (collection.size() == 2)
+    }
+
 }
